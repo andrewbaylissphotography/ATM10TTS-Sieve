@@ -240,9 +240,20 @@
   fetch('sieve_recipes.csv')
     .then(r => r.text())
     .then(text => {
-      const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
-      parsed.data.forEach(row => {
-        if (row.Input && row.Output && row.Tier) {
+    const parsed = Papa.parse(text, { header: true, skipEmptyLines: true });
+
+
+    console.log("Raw CSV rows:", parsed.data.slice(0, 10)); // <- ADD THIS
+
+
+
+parsed.data.forEach(row => {
+  const output = row.Output?.trim();
+  if (output?.startsWith("minecraft:")) {
+    console.log("Minecraft Output Detected:", output);
+  }
+
+  if (row.Input && output && row.Tier) {
           allData.push({
             Source: row.Source,
             Input: row.Input,
