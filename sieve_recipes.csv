@@ -597,7 +597,7 @@
 "JSON","exdeorum:dust","exdeorum:netherite_mesh","minecraft:gunpowder","1","14.00%","6"
 "JSON","exdeorum:dust","exdeorum:netherite_mesh","minecraft:iron_nugget","1","8.00%","6"
 "JSON","exdeorum:dust","exdeorum:netherite_mesh","minecraft:redstone","1","14.00%","6"
-"KubeJS","minecraft:blackstone","exdeorum:netherite_mesh","allthemodium:allthemodium_nugget","1","15%","6"
+"KubeJS","exdeorum:crushed_blackstone","exdeorum:netherite_mesh","allthemodium:allthemodium_nugget","1","15%","6"
 "JSON","minecraft:dirt","exdeorum:netherite_mesh","exdeorum:deepslate_pebble","1","65.00%","6"
 "JSON","minecraft:dirt","exdeorum:netherite_mesh","exdeorum:grass_seeds","1","20.0%","6"
 "JSON","minecraft:dirt","exdeorum:netherite_mesh","exdeorum:mycelium_spores","1","20.0%","6"
