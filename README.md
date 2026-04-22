@@ -1,4 +1,5 @@
 # ATM10 Sky - Sieve Recipes Visual Cheat Sheet
+![Minecraft](https://img.shields.io/badge/Game-Minecraft-blue?logo=windows)
 
 ![screenshot](img/screenshot.png)
 
